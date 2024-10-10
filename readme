@@ -1,0 +1,38 @@
+
+SmartTrafficAI is a real-time system for detecting vehicles, reading number plates, estimating vehicle speed, and classifying vehicle types (car, truck, bus, bike) using computer vision and deep learning models like YOLOv5.
+ 
+## Features
+- Vehicle Detection**: Detects multiple vehicle types in real-time.
+- Number Plate Recognition**: Extracts text from vehicle number plates using OCR.
+- Speed Estimation**: Estimates vehicle speed based on frame-by-frame movement.
+- Vehicle Classification**: Identifies vehicle types such as cars, buses, trucks, etc.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/adnano1/SmartTrafficAI.git
+   cd SmartTrafficAI
+   ```
+
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Set up Tesseract for OCR (number plate recognition):
+   - [Install Tesseract](https://github.com/tesseract-ocr/tesseract)
+
+4. Download the YOLOv5 weights and place them in the `yolov5/` folder.
+
+## Running the Application
+Run the system on your video or webcam:
+```bash
+python app.py
+```
+
+## License
+This project is licensed under the MIT License.
+
+---
+
+Let me know if you'd like to add more details!
