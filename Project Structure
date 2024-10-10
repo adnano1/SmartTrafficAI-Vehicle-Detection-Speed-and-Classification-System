@@ -1,0 +1,21 @@
+SmartTrafficAI/
+│
+├── data/                   # Dataset storage
+│   ├── video.mp4           # Video footage for testing
+│   └── ...                 # Add your own dataset here
+│
+├── yolov5/                 # YOLOv5 model files (download pre-trained weights)
+│   ├── yolov5.cfg
+│   ├── yolov5.weights
+│   └── yolov5.names
+│
+├── config/
+│   └── config.py           # Configurations like paths, model settings
+│
+├── scripts/
+│   ├── vehicle_detection.py # Main detection script
+│   ├── speed_calculation.py # Speed calculation logic
+│   ├── plate_recognition.py # Number plate detection and OCR
+│   └── vehicle_classification.py # Custom classifier script for vehicle types
+│
+└── app.py                  # Entry point for running the application
