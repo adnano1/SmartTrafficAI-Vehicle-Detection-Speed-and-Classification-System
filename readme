@@ -1,7 +1,7 @@
 
 SmartTrafficAI is a real-time system for detecting vehicles, reading number plates, estimating vehicle speed, and classifying vehicle types (car, truck, bus, bike) using computer vision and deep learning models like YOLOv5.
  
-## Features
+## Features 
 - Vehicle Detection**: Detects multiple vehicle types in real-time.
 - Number Plate Recognition**: Extracts text from vehicle number plates using OCR.
 - Speed Estimation**: Estimates vehicle speed based on frame-by-frame movement.
