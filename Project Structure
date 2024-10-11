@@ -1,5 +1,5 @@
 SmartTrafficAI/
-│
+│ 
 ├── data/                   # Dataset storage
 │   ├── video.mp4           # Video footage for testing
 │   └── ...                 # Add your own dataset here
